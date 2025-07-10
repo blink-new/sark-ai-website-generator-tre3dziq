@@ -7,7 +7,7 @@ function App() {
   const [showGenerator, setShowGenerator] = useState(false)
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-white">
       <Toaster position="top-right" />
       {showGenerator ? (
         <Generator onBack={() => setShowGenerator(false)} />
